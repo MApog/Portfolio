@@ -1,0 +1,45 @@
+.head1 {
+    text-align: center;
+    text-shadow: black;
+}
+
+.header{
+    background-color: rgb(34, 34, 250);
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+.main{
+    background-color: white;
+    height: 1000px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+.footer{
+    background-color: darkgray;
+    height: 150px;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
