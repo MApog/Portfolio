@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600; 900&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #333;
+  
+}
+
+header {
+  background-color: transparent;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo{
+  padding-left: 50px;
+}
+
+.logo h2 {
+  margin: 0;
+}
+
+.logo a{
+  text-decoration: none;
+}
+
+.port{
+  color: #fff;
+}
+
+.folio{
+  color: blue;
+}
+
+nav {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+  padding: 10px;
+  display: inline block;
+}
+
+.nav-links li a:hover {
+  background-color: gray;
+  border-radius: 20px;  
+}
+
+section {
+  padding-top: 50px;
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+.photo {
+  position:absolute;
+  top: 20%;
+  left: 80%;
+  float: right;
+  border-radius: 40px;
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: slide-in 2.5s forwards;
+}
+
+#home{
+  color: #fff;
+}
+
+.hello{
+  display: block;
+  position: absolute;
+  top: 20.5%;
+  left: 5.2%;
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: slide-in 0.7s forwards;
+  font-size: 2rem;
+}
+
+.__{
+  color: blue;
+}
+
+.title_1{
+  font-size: 4rem;
+  display: block;
+  position: absolute;
+  top: 17%;
+  left: 5%;
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: slide-in 1.5s forwards;
+}
+
+.name_1{
+  color:blue;
+}
+
+.multiText{
+  color: blue;
+}
+
+.work{
+  font-size: 1.5rem;
+  display: block;
+  position: absolute;
+  top: 33%;
+  left: 5.1%;
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: slide-in 2s forwards;
+}
+
+.work_2{
+  display: block;
+  position: absolute;
+  top: 40%;
+  left: 5.1%;
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: slide-in 2.5s forwards;
+}
+
+.slide-in-text {
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: slide-in 2.5s forwards;
+}
+
+
+
+@keyframes slide-in {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
